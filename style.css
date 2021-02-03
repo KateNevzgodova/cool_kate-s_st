@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap');
+a {
+    text-decoration: none;
+    color: rgb(12, 19, 105);
+}
+
+body {
+    background: #3e4264 url(https://3dlancer.net/upload/modelimages/696/13696/texture-wooden-table-68544-xxl.jpg) no-repeat;
+    background-size: 100%;
+    margin: 0;
+}
+
+#bg {
+    background: #3e4264 url(https://i.pinimg.com/originals/ea/64/2e/ea642edeb749adcf8377e581646464df.jpg) no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+form {
+    width: auto;
+    float: right;
+    margin-right: 30px;
+}
+
+input {
+    width: 250px;
+    height: 42px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background: #F9F0DA;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+}
+
+input:focus {
+    width: 1256px;
+}
+
+button {
+    width: 42px;
+    height: 42px;
+    background: none;
+    border: none;
+    position: absolute;
+    top: -2px;
+    right: 0;
+}
+
+button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    color: #324b4e;
+}
+
+.title {
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-size: xxx-large;
+    padding-top: 10px;
+    text-align: left;
+    font-family: Amita;
+    font-weight: bold;
+}
+
+.sign {
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    word-spacing: 90px;
+    font-size: xx-large;
+    position: absolute;
+    font-family: Amita;
+    font-weight: bold;
+    top: 85px;
+    left: 200px;
+    letter-spacing: 5px;
+}
