@@ -3,6 +3,7 @@
 a {
     text-decoration: none;
     color: rgb(102, 9, 105);
+    font-family: Amita;
 }
 
 body {
@@ -208,4 +209,22 @@ button:before {
     background-attachment: scroll;
     background-size: 100%;
     color: rgb(103, 10, 106);
+}
+
+.container {
+    position: relative;
+    max-width: 1256px;
+    margin-top: 380px;
+    margin-left: 30px;
+    max-height: 200px;
+}
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 2px;
 }
