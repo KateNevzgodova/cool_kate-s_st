@@ -244,6 +244,7 @@ main article {
 }
 
 section .container {
+    padding: 18px 20px;
     display: flex;
     flex-direction: column;
 }
@@ -307,4 +308,40 @@ section .container>.title {
     margin-top: 7px;
     height: 22px;
     margin-left: -9px;
+}
+
+footer .container {
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.89);
+    font-family: Amita;
+}
+
+.rules a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 10px;
+}
+
+footer .container img {
+    height: 15px;
+    padding: 0px 8px;
+}
+
+.sub a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.sub {
+    font-size: 10px;
 }
