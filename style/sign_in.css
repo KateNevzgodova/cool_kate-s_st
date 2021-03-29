@@ -1,4 +1,4 @@
-.sign-countainer {
+.background .sign-countainer {
     padding: 18px 20px;
     display: flex;
     background-color: #9f7754d1;
@@ -8,6 +8,7 @@
     height: fit-content;
     flex-direction: column;
     margin: auto;
+    margin-top: 20px;
 }
 
 .sign-countainer .title h2 {
@@ -121,4 +122,8 @@ button {
     margin-bottom: 10px;
     margin-top: 10px;
     text-decoration: none;
+}
+
+footer .container {
+    margin: auto;
 }
