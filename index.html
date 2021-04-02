@@ -23,77 +23,14 @@
             </div>
         </nav>
 
-        <form id="search">
+        <form id="search" onsubmit="onSerch(event);">
             <div class="container">
-                <input type="search" placeholder="search">
+                <input name="search" type="search" placeholder="search">
 
             </div>
         </form>
         <main>
-            <div class="container">
-                <article>
-                    <div class="blockImg">
-                        <img src="img\fairy_tale_fantasy_foggy_forest_haunted_house_light_beam_mist-948848.jpg" alt="Story: Moments">
-                    </div>
-                    <div class="blockText">
-                        <div class="text">
-                            <span> <a href="#" class="text">Moments,just moments</a> </span>
-                            <div class="tags"><span>Exo</span> <span>ООС</span></div>
-
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="blockImg"><img src="img\zamok-klyuch-svet-dver.jpg" alt="Stories: Story: Demons"></div>
-                    <div class="blockText">
-                        <div class="text">
-                            <span> <a href="https://ficbook.net/readfic/9675129 " class="text">Demons, Potter</a></span>
-                            <div class="tags"><span>Harry Potter</span> <span>ООС</span></div>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="blockImg">
-                        <img src="img\fairy_tale_fantasy_foggy_forest_haunted_house_light_beam_mist-948848.jpg" alt="Story: Moments">
-                    </div>
-                    <div class="blockText">
-                        <div class="text">
-                            <span> <a href="#" class="text">Moments,just moments</a> </span>
-                            <div class="tags"><span>Exo</span> <span>ООС</span></div>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="blockImg">
-                        <img src="img\fairy_tale_fantasy_foggy_forest_haunted_house_light_beam_mist-948848.jpg" alt="Story: Moments">
-                    </div>
-                    <div class="blockText">
-                        <div class="text">
-                            <span> <a href="#" class="text"> Moments,just moments</a> </span>
-                            <div class="tags"><span>Exo</span> <span>ООС</span></div>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="blockImg"><img src="img\zamok-klyuch-svet-dver.jpg" alt="Stories: Story: Demons"></div>
-                    <div class="blockText">
-                        <div class="text">
-                            <span> <a href="https://ficbook.net/readfic/9675129 " class="text"> Demons,Potter</a></span>
-                            <div class="tags"><span>Harry Potter</span> <span>ООС</span></div>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="blockImg">
-                        <img src="img\fairy_tale_fantasy_foggy_forest_haunted_house_light_beam_mist-948848.jpg" alt="Story: Moments">
-                    </div>
-                    <div class="blockText">
-                        <div class="text">
-                            <span> <a href="#" class="text"> Moments,just moments</a> </span>
-                            <div class="tags"><span>Exo</span> <span>ООС</span></div>
-                        </div>
-                    </div>
-                </article>
+            <div class="container" id="main_articles">
 
             </div>
         </main>
@@ -136,7 +73,7 @@
             </div>
         </footer>
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
