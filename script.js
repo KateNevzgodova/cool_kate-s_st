@@ -48,7 +48,7 @@ window.onload = function(e) {
     if (container) {
         for (let index = 0; index < dataStories.length; index++) {
             const item = dataStories[index];
-            console.log(item);
+            // console.log(item);
 
             const newArticle = document.createElement("article");
             const div = document.createElement("div")
@@ -127,3 +127,4 @@ function onSerch(event) {
     }
 
 }
+// не хочет коммит
